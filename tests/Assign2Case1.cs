@@ -33,8 +33,8 @@ public class Assign2Case1
 
         //use a string writer to format the expected outcome
         var expectedOutcome = new StringBuilder();
-        expectedOutcome.Append("Enter number of contestants last year >> ");
-        expectedOutcome.Append("Enter number of contestants this year >> ");
+        expectedOutcome.AppendLine("Enter number of contestants last year >> ");
+        expectedOutcome.AppendLine("Enter number of contestants this year >> ");
         expectedOutcome.AppendLine(string.Format("Last year's competition had {0} contestants, and this year's has {1} contestants",lastYearInput,thisYearInput));
         expectedOutcome.AppendLine("Revenue expected this year is $350.00");
         expectedOutcome.AppendLine("It is True that this year's competition is bigger than last year's.");
@@ -64,8 +64,8 @@ public class Assign2Case1
 
         //use a string writer to format the expected outcome
         var expectedOutcome = new StringBuilder();
-        expectedOutcome.Append("Enter number of contestants last year >> ");
-        expectedOutcome.Append("Enter number of contestants this year >> ");
+        expectedOutcome.AppendLine("Enter number of contestants last year >> ");
+        expectedOutcome.AppendLine("Enter number of contestants this year >> ");
         expectedOutcome.AppendLine(string.Format("Last year's competition had {0} contestants, and this year's has {1} contestants",lastYearInput,thisYearInput));
         expectedOutcome.AppendLine("Revenue expected this year is $1,175.00");
         expectedOutcome.AppendLine("It is True that this year's competition is bigger than last year's.");
@@ -94,8 +94,8 @@ public class Assign2Case1
 
         //use a string writer to format the expected outcome
         var expectedOutcome = new StringBuilder();
-        expectedOutcome.Append("Enter number of contestants last year >> ");
-        expectedOutcome.Append("Enter number of contestants this year >> ");
+        expectedOutcome.AppendLine("Enter number of contestants last year >> ");
+        expectedOutcome.AppendLine("Enter number of contestants this year >> ");
         expectedOutcome.AppendLine(string.Format("Last year's competition had {0} contestants, and this year's has {1} contestants",lastYearInput,thisYearInput));
         expectedOutcome.AppendLine("Revenue expected this year is $1,350.00");
         expectedOutcome.AppendLine("It is False that this year's competition is bigger than last year's.");
